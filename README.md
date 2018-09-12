@@ -1,3 +1,3 @@
 # secjs-hashcode
 
-To get Bytecode based on Contracts' function and input parameter
+Encoding for Contract Application Binary Interface (ABI), including function name and input paras, based on the rule https://solidity.readthedocs.io/en/develop/abi-spec.html

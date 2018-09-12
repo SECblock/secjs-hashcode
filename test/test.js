@@ -1,6 +1,6 @@
 const HashCode = require('../src/index')
 const assert = require('assert')
-// create a new VM instance
+
 describe('secjs hashcode test', () => {
   it('should return correct hashed code with function baz(uint32,bool) and values (69, true))', () => {
     // The signature is defined as the canonical expression of the basic prototype

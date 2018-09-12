@@ -1,0 +1,24 @@
+{
+  "name": "secjs-hashcode",
+  "version": "1.0.0",
+  "description": "Encoding for Contract Application Binary Interface (ABI), including function name and input paras, based on the rule https://solidity.readthedocs.io/en/develop/abi-spec.html",
+  "main": "src/index.js",
+  "dependencies": {
+    "keccak": "^1.4.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/MongoX-SEC/secjs-hashcode.git"
+  },
+  "author": "Ming Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/MongoX-SEC/secjs-hashcode/issues"
+  },
+  "homepage": "https://gitlab.com/MongoX-SEC/secjs-hashcode#README"
+}

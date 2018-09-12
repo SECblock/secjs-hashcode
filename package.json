@@ -1,6 +1,6 @@
 {
   "name": "secjs-hashcode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encoding for Contract Application Binary Interface (ABI), including function name and input paras, based on the rule https://solidity.readthedocs.io/en/develop/abi-spec.html",
   "main": "src/index.js",
   "dependencies": {

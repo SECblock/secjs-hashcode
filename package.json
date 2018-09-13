@@ -15,6 +15,12 @@
     "type": "git",
     "url": "git+ssh://git@gitlab.com/MongoX-SEC/secjs-hashcode.git"
   },
+  "keywords": [
+    "secjs",
+    "hashcode",
+    "ContractABI",
+    "Encoder"
+  ],
   "author": "Ming Liu",
   "license": "ISC",
   "bugs": {

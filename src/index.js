@@ -152,6 +152,20 @@ class HashCode {
     return [sHashCode, bDynamicFlag]
   }
 
+  convertChinenseString () {
+    let aParaValue = this._aParaValue
+    for (var i = 0; i < aParaValue.length; i++) {
+      this._aParaValue[i].value = escape(aParaValue[i].value)
+    }
+  }
+
+  padJsonString () {
+    let aParaValue = this._aParaValue
+    for (var i = 0; i < aParaValue.length; i++) {
+      this._aParaValue[i].value = aParaValue[i].value + '0'.repeat((32 - aParaValue[i].value.length % 32))
+    }
+  }
+
   _getStringHash (obj, bStringDynamicFlag) {
     let sResult = ''
     if (obj.dynamic) {
